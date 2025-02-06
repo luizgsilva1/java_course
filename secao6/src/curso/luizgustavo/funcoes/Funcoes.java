@@ -5,10 +5,15 @@ public class Funcoes {
 
         saudacao();
         saudacao();
+        pergunta();
 
     }
 
     public static void saudacao() {
         System.out.println("Olá, esta é minha primeira função!");
+    }
+
+    public static void pergunta() {
+        System.out.println("Como foi seu dia?");
     }
 }
